@@ -28,7 +28,7 @@
     java.lang.Object writeReplace();
     java.lang.Object readResolve();
 }
--keep class * extends android.os.Parcelable {
+-keep class * implements android.os.Parcelable {
     public static final android.os.Parcelable$Creator *;
 }
 
